@@ -6,7 +6,6 @@ The folder contains the experimentation python files.
 
 -user_model.py: Model for crow worker.
 
--graph_builder.py: builder the relationship between items and workers, for example, assign the observed label for the correspomding 
-	item. For the item, record the workers who labeled it.
+-graph_builder.py: builder the relationship between items and workers, for example, assign the observed label for the corresponding item. For the item, record the workers who labeled it.
 
 The aggregating algorithms will be applied to the built graph, which including the relations between items and workers.
